@@ -1,0 +1,221 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    list-style: none; 
+    box-sizing: border-box; 
+} 
+body{ 
+    background-color: rgb(33, 31, 31); 
+ 
+} 
+.header { 
+    max-width: 1320px; 
+    margin: 10px auto; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.header__left { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.header__menu-burger { 
+    height: 30px; 
+    width: 30px; 
+    position: relative; 
+    margin-right: 30px; 
+} 
+.burger { 
+    position: absolute; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #fff; 
+    top: 50%; 
+} 
+.burger-before { 
+    position: absolute; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #fff; 
+    top: 20%; 
+} 
+.burger-after { 
+    position: absolute; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #fff; 
+    top: 80%; 
+} 
+.header__logo { 
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+} 
+.fa-youtube{ 
+    font-size: 35px; 
+    color: rgb(235, 22, 22); 
+    position: relative; 
+    margin-right: 5px; 
+ 
+} 
+.fa-youtube::after{ 
+    position: absolute; 
+    content: ''; 
+    width: 15px; 
+    height: 15px; 
+    background-color: #fff; 
+    left: 35%; 
+    top: 35%; 
+    z-index: -1; 
+} 
+ 
+.header__logo-name { 
+    color: #fff; 
+    font-weight: 300; 
+    letter-spacing: -1.5px; 
+    position: relative; 
+    font-family: 'Roboto', sans-serif; 
+} 
+.header__logo-name span{ 
+    font-size: 11px; 
+    font-weight: 100; 
+    position: absolute; 
+    top: 0; 
+    right: -20px; 
+    color: rgb(153, 138, 138); 
+    letter-spacing: 0; 
+} 
+.header__center { 
+    display: flex; 
+    align-items: center; 
+    margin-right: 30px; 
+} 
+input{ 
+    background: none; 
+    width: 550px; 
+    color: #fff; 
+    font-size: 18px;
+} 
+form{ 
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(153, 138, 138); 
+    padding: 10px 20px; 
+    border-radius: 25px 0px 0 25px; 
+} 
+.fa-keyboard{ 
+    color: rgb(153, 138, 138); 
+    font-size: 21px; 
+} 
+.fa-magnifying-glass{ 
+    border: 1px solid rgb(153, 138, 138); 
+    font-size: 17px; 
+    font-weight: 100; 
+    color: rgb(217, 195, 195); 
+    padding: 12px 22px; 
+    border-radius: 0px 25px 25px 0px; 
+    background-color: rgba(255, 255, 255, 0.184); 
+} 
+.fa-microphone{ 
+    margin-left: 10px; 
+    color: #fff;  
+    font-size: 17px; 
+    background-color: rgba(255, 255, 255, 0.184); 
+    border-radius: 50%; 
+    padding: 14px 16px; 
+} 
+.header__right { 
+    color: #ffffff;
+    width: 150px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+} 
+.header__right-block { 
+    position: relative;
+} 
+.fa-video, .fa-bell{
+    font-size: 20px;
+}
+.header__right-circle { 
+    font-family: "Roboto";
+    position: absolute;
+    top: -33%;
+    right: -50%;
+    background-color: #e01515;
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(33, 31, 31);
+}
+.header__right-profile { 
+    background-color: #731c85;
+    padding: 6px 11px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    max-width: 1320px; 
+    margin: 0 auto;
+    flex-direction: column;
+}
+.section-1 {
+    border-bottom: 1px solid rgb(153, 138, 138);
+    width: 250px;
+}
+.section-1__item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.fa-regular {
+    margin-left: 3px;
+}
+.section-1__item-name {
+    cursor: pointer;
+    margin-left: 25px;
+}
+hr{
+    color: #48fd00;
+}
+.section-2 {
+    /* border: 1px solid #ffffff; */
+    width: 250px;
+    height: 100px;
+}
+.section-2__name{
+    margin: 8px ;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+}
+.section-2__item {
+    display: flex;
+    flex-direction: row;
+}
+.section-2__item-name {
+    cursor: pointer;
+    color: #fff;
+    margin-left: 17px;
+}
+#YouTube{
+    margin-left: 1px;
+    font-size: 18px;
+}
+#YouTube::after{ 
+    position: absolute; 
+    content: ''; 
+    width: 7px; 
+    height: 6px; 
+    background-color: #fff; 
+    left: 35%; 
+    top: 35%; 
+    z-index: -1; 
+} 
